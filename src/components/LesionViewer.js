@@ -12,7 +12,7 @@ const LesionViewer = ({ polypoints }) => {
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, canvas.clientWidth / canvas.clientHeight, 0.1, 1000);
-    camera.position.z = 50;
+    camera.position.z = 20;
 
     const controls = new OrbitControls(camera, renderer.domElement);
 
